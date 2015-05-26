@@ -25,7 +25,8 @@
     <a href="/games.html">Other Games</a> -->
     <a href="./projects.html">Projects</a>
     <!-- <a href="/blog.html">Blog</a> -->
-    <a href="./resume.html">Resume</a>
+    <a href="https://github.com/nstoddard">GitHub</a>
+    <!-- <a href="/resume.html">Resume</a> -->
     <a href="mailto:nstodda@purdue.edu">Contact</a>
   </div>
   <div class="m"><h2 id="section">10/15/13</h2>
@@ -36,7 +37,7 @@
 <p>This console library differs from others in that it provides several varieties of console, such as hexagonal consoles, consoles that make it easy to display messages, and consoles that display tiles loaded from an image. Several of these consoles can be combined in one window.</p>
 <p>The library is written in Scala, but it might also be usable in Java. However, it uses some Scala features such as partial functions that are hard to access from Java. If there’s demand for it, I might write a wrapper to make it easier to use from Java, but for now I’ll stick to Scala. In my opinion, Scala is significantly better than Java for most applications. For instance, you don’t have to declare the types of most variables (the compiler infers them), it supports operator overloading, and it’s great for functional programming. One other area where Scala is superior to Java is that it supports partial functions, which are functions written as a series of “case” statements. In this library, they allow you to handle input more concisely than you could in Java.</p>
 <p>Here’s an example of a simple program using this library, which displays an <code>@</code> sign that you can move around the screen (for people unfamiliar with roguelikes, the <code>@</code> sign is typically used to represent your character). There are several other examples in <code>src/Demo.scala</code>.</p>
-<pre class="sourceCode scala"><code class="sourceCode scala"><span class="kw">import</span> com.<span class="fu">nathanstoddard</span>.<span class="fu">_</span>
+<div class="sourceCode"><pre class="sourceCode scala"><code class="sourceCode scala"><span class="kw">import</span> com.<span class="fu">nathanstoddard</span>.<span class="fu">_</span>
 <span class="kw">import</span> common.<span class="fu">_</span>
 <span class="kw">import</span> console.<span class="fu">_</span>
 
@@ -58,7 +59,7 @@
       }
     }
   }
-}</code></pre>
+}</code></pre></div>
 <p>The library is currently missing several features such as line of sight, field of view, partially transparent tiles, and integration with Swing. I’m not sure if all of them will be implemented before the first release.</p></div>
 </body>
 </html>
